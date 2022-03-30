@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8fc84ddc2b5de5a5209ab14e2fe7e94",
+    "revision": "6da5a716b29aa277dc3a08f83187aa02",
     "url": "/ReactCard/index.html"
   },
   {
-    "revision": "855cd1eedd8cb137888b",
+    "revision": "af6f40ad7981d84b7ec5",
     "url": "/ReactCard/static/css/2.d694ff75.chunk.css"
   },
   {
-    "revision": "26c33b1e8507ee643d5a",
+    "revision": "82de006eb5a0e489bfd0",
     "url": "/ReactCard/static/css/main.ec4c4fe5.chunk.css"
   },
   {
-    "revision": "855cd1eedd8cb137888b",
-    "url": "/ReactCard/static/js/2.6eb2eb18.chunk.js"
+    "revision": "af6f40ad7981d84b7ec5",
+    "url": "/ReactCard/static/js/2.ba35130c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ReactCard/static/js/2.6eb2eb18.chunk.js.LICENSE.txt"
+    "url": "/ReactCard/static/js/2.ba35130c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26c33b1e8507ee643d5a",
-    "url": "/ReactCard/static/js/main.248771e9.chunk.js"
+    "revision": "82de006eb5a0e489bfd0",
+    "url": "/ReactCard/static/js/main.7edb863d.chunk.js"
   },
   {
     "revision": "185eafb079f55a34adc7",
