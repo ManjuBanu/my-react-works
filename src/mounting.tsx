@@ -1,4 +1,5 @@
 import React from 'react';
+import manju from './manju.jpg';
 
 let counter =0;
 const count=counter+1;
@@ -48,7 +49,7 @@ render(){
             {this.state.imgshow && 
             <>
             <h2>I am here !!!</h2>
-            <img src="me.png" className="mypic" alt="logo" 
+            <img src={manju} className="mypic" alt="logo" 
             />
             
             </>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import manju from './m'
+import manju from './manju.jpg';
 
 
 const StyledList = styled.div`
@@ -48,7 +48,7 @@ export class AboutMe extends React.Component<{}, {divshow:boolean,}>{
         return(
             <div className="AboutMe">
                 <h1>WANT TO KNOW ABOUT ME !!!</h1>
-                <img src="images/manju.jpg" className="mypic1" alt="logo" />
+                <img src={manju} className="mypic1" alt="logo" />
                 <StyledList>
                     <Styeldli>
                         Name :: Manju Mala Devi M
