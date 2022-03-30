@@ -2,7 +2,7 @@
   "name": "typescrip-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manjubanu.github.io/ReactCard/",
+  "homepage": "https://manjubanu.github.io/my-react-works/",
   "dependencies": {
     "@material-ui/styles": "^4.9.6",
     "@popperjs/core": "^2.2.1",
