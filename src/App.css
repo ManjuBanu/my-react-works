@@ -1,0 +1,203 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-top: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-a{
+  height: 500px;
+}
+
+.FormDiv{
+  width: 300px;
+  height:300px;
+  background-color: bisque;
+  text-align: center;
+  float: left;
+  margin: 40px;
+}
+.virtualDom{
+  width: 300px;
+  height:300px;
+  background-color: bisque;
+  text-align: center;
+  float: left;
+}
+input[type=text]{
+width:200px;
+height:20px;
+margin-left: 20px;;
+}
+
+.btn-primary {
+  color: black;
+  width:80px;
+  height: 30px;
+  background-color: lightgreen;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  box-shadow: inset 0 0 0 20rem greenyellow;
+}
+
+/* .btn-primary:active {
+  box-shadow: inset 0 0 0 20rem var(--darken-2),
+    inset 0 3px 4px 0 var(--darken-3),
+    0 0 1px var(--darken-2);
+} */
+
+.btn-primary:disabled,
+.btn-primary.is-disabled {
+  opacity: .5;
+}
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even){background-color:darkcyan}
+
+th {
+  background-color: grey;
+  color: white;
+  margin-left: 50px;
+}
+
+.mountingDiv {
+  width:200px;
+  height: 200px;
+  background-color: bisque;
+ text-align: center;
+  float: left;
+}
+.mountingDiv1 {
+  width:200px;
+  height: 200px;
+  background-color:gray;
+ text-align: center;
+  float: left;
+}
+.mypic {
+  height: 100px;
+  width: 100px;
+  pointer-events: none;
+  margin-top:-10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:goldenrod;
+  width: 300px;
+  text-align: center;
+  float: left;
+  margin: 40px;
+}
+
+li a {
+  display: block;
+  color:black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color:gray;
+  color: white;
+}
+
+.cardShow{
+  background-color: greenyellow;
+}
+.AboutMe{
+margin-top: -20px;
+}
+.mypic1 {
+  height: 230px;
+  width: 230px;
+  pointer-events: none;
+  float: left;
+}
+h1{
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  font-size: 50px;
+  color:orangered;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.App button {
+  background-color: green;
+  color: white;
+  font: inherit;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+.App button.Red {
+  background-color: red;
+}
+
+.App button.Red:hover {
+  background-color: salmon;
+}
+
