@@ -2,7 +2,7 @@ import {MyForm} from './form-table';
 import { UpdateTime } from './virtual_dom';
 import {Mounting} from './mounting';
 import {ApiAxios} from './apicall';
-import { Route, BrowserRouter as Router, Link } from 'react-router-dom';
+import { Route, HashRouter as Router, Link } from 'react-router-dom';
 import NotFound from './notFoundPage';
 import styled from 'styled-components';
 import React from 'react';
